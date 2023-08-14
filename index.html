@@ -1,0 +1,42 @@
+
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Página de Cadastro</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <div class="login">
+        <div class="img">
+            <img src="imagens/logo-principal.png" alt="logo">
+        </div>  
+        <form action="/pontos-turisticos/pontos.html">
+            <label>Email:</label>
+            <input type="email" placeholder="exemplo@gmail.com"> 
+            
+            <label>Senha:</label>
+            <input type="password" placeholder="Senha">
+
+            <div class="botao">
+                <button type="submit" onclick="mostrarAlerta()"><b>cadastro</b></button>
+            </div>
+
+            <script>
+             function mostrarAlerta() {
+             alert("Você foi cadastrado!");
+             }
+  </script>
+
+        </form>
+    </div>
+
+    <div class="Fazer-login">
+    <p> Já possui cadastro? </p>
+    <a href="login/login.html"> <button type="submit"><b>Fazer login</b></button> </a>
+    </div>
+</body>
+</html>

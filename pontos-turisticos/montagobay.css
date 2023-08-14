@@ -1,0 +1,62 @@
+body {
+    font-family: "Poppins", Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: rgb(35, 42, 58);;
+}
+
+
+header {
+    display: flex;
+    justify-content: row;
+    background-color: rgb(223, 188, 165);
+}
+
+.logo img {
+    max-width: 150px;
+}
+
+.title {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    color: rgb(35, 42, 58);
+    margin-left: 28%;
+}
+
+.about, .attractions {
+    width: 80%;
+    margin: 20px auto;
+    padding: 20px;
+    border: 1px solid #ccc;
+    background-image: linear-gradient( white, rgb(231, 208, 188), white);
+}
+
+.attractions {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.about img {
+    width: 100%; /* Define a largura da imagem como 100% do container */
+    height: auto; /* Mantém a proporção da imagem */
+}
+
+footer {
+    text-align: center;
+    padding: 10px;
+    background-color: rgb(223, 188, 165);
+    color: rgb(35,42,58)
+}
+
+/* Estilos para telas maiores */
+@media screen and (min-width: 768px) {
+    header {
+        padding: 40px;
+    }
+    
+    .about, .attractions {
+        width: 60%;
+    }
+}
